@@ -7,7 +7,7 @@
 
 > **Advanced AI-powered breathing pause detection system with intelligent suggestions and proper medical-grade AHI calculation**
 
-## 🌟 Overview
+## 🌟 Overview:
 
 The Enhanced Sleep Apnea Detector is a sophisticated machine learning application that analyzes breathing sound recordings to detect dangerous pauses (apnea/hypopnea events) in real-time. Unlike traditional systems, this enhanced version provides:
 
