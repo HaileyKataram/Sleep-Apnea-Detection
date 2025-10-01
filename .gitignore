@@ -1,0 +1,273 @@
+# ==============================================================================
+# Enhanced Sleep Apnea Detector - Git Ignore Configuration
+# ==============================================================================
+
+# ==============================================================================
+# Python
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# IDEs and Editors
+# ==============================================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ==============================================================================
+# Operating Systems
+# ==============================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ==============================================================================
+# Audio Files (Large Files - Use Git LFS or External Storage)
+# ==============================================================================
+# Common audio formats
+*.wav
+*.mp3
+*.flac
+*.aac
+*.ogg
+*.m4a
+*.wma
+
+# Audio samples and datasets
+audio_samples/
+test_audio/
+audio_data/
+recordings/
+
+# ==============================================================================
+# Machine Learning & Data
+# ==============================================================================
+# Model files (large binary files)
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pb
+*.tflite
+
+# Data directories
+data/raw/
+data/processed/
+data/external/
+datasets/
+*.csv
+*.json
+*.parquet
+
+# Model artifacts
+models/trained/
+models/checkpoints/
+model_outputs/
+experiments/
+
+# ==============================================================================
+# Logs and Monitoring
+# ==============================================================================
+# Log files
+*.log
+logs/
+*.out
+
+# Monitoring and experiment tracking
+runs/
+outputs/
+mlruns/
+wandb/
+.wandb/
+tensorboard_logs/
+
+# ==============================================================================
+# Web Frameworks
+# ==============================================================================
+# Streamlit
+.streamlit/
+streamlit_cache/
+
+# FastAPI
+fastapi.log
+
+# ==============================================================================
+# Jupyter Notebooks
+# ==============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# ==============================================================================
+# Configuration and Secrets
+# ==============================================================================
+# Local configuration
+config/local.yaml
+config/secrets.yaml
+.secrets/
+*.key
+*.pem
+
+# Environment variables
+.env.local
+.env.development
+.env.production
+
+# ==============================================================================
+# Documentation Build
+# ==============================================================================
+docs/_build/
+site/
+
+# ==============================================================================
+# Temporary and Cache Files  
+# ==============================================================================
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Cache directories
+.cache/
+cache/
+
+# ==============================================================================
+# Docker
+# ==============================================================================
+.docker/
+.dockerignore
+
+# ==============================================================================
+# Package Manager
+# ==============================================================================
+# Node modules (if using any JS tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Poetry
+poetry.lock
+
+# ==============================================================================
+# Custom Project Specific
+# ==============================================================================
+# User uploaded files
+user_uploads/
+user_data/
+
+# Test outputs
+test_outputs/
+test_results/
+
+# Backup files
+*.bak
+*.backup
+
+# ==============================================================================
+# Keep Essential Empty Directories
+# ==============================================================================
+# Use .gitkeep files for essential empty directories
+!.gitkeep
+!*/
+!*/.gitkeep
